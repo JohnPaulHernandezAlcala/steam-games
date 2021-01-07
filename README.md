@@ -6,7 +6,7 @@
 *Author: John Paul Hernandez Alcala*
 
 ## Description 
-This project uses a data derived method for predicting which client type should be targeted for successful bank telemarketing. A presentation that investigates which client features affect marketing success rate and machine learning methods result in a mode with good sensitivity (~73%) and good specificity (~73%).
+This project uses a data derived method for predicting which game would have high ownership by Steam Users. A presentation that investigates which game features affect onwership count outcome and machine learning methods result in a model with moderate sensitivity (~73%) and moderate specificity (~73%).
 
 
 
@@ -14,7 +14,7 @@ This project uses a data derived method for predicting which client type should 
 
 ### 1. Access the [Preprocessing.ipynb](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Preprocessing.ipynb) first and go from there or look at all the code at once in [Total_Code.ipynb](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Total_Code.ipynb).
 ### 2. Follow along with the coding narrative and comments.
-### 3. Preview the uploaded presentation, [Bank Targeted Marketing](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Bank%20Targeted%20Marketing.pdf).
+### 3. Preview the uploaded presentation, [Steam Games Analysis](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Bank%20Targeted%20Marketing.pdf).
 
 ## From Analysis
 
@@ -82,7 +82,7 @@ See [LICENSE.md](https://github.com/JohnPaulHernandezAlcala/House_Sale_Prices/bl
 [S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimaraes, Portugal, October, 2011. EUROSIS. [bank.zip]](https://www.semanticscholar.org/paper/Using-data-mining-for-bank-direct-marketing%3A-an-of-Moro-Laureano/a175aeb08734fd669beaffd3d185a424a6f03b84)
 
 # Image Sources:
-https://cdn.wallethub.com/wallethub/posts/76002/banking-landscape-report.png
+https://www.slashgear.com/wp-content/uploads/2019/12/steamcure.jpg
 
 https://img2.pngio.com/business-growth-chart-png-transparent-growth-charts-transparent-business-growth-png-820_387.png
 
