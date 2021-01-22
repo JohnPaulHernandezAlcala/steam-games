@@ -6,68 +6,77 @@
 *Author: John Paul Hernandez Alcala*
 
 ## Description 
-This project uses a data derived method for predicting which game would have high ownership by Steam Users. A presentation that investigates which game features affect onwership count outcome and machine learning methods result in a model with moderate sensitivity (~73%) and moderate specificity (~73%).
+This project uses a data derived method for predicting which game would have above average ownership by Steam Users. A presentation that investigates which game features affect onwership count outcome and machine learning methods result in a model with moderate sensitivity (~71%) and moderate specificity (~65%).
 
 
 
 ## Where to Start First:
 
-### 1. Access the [Preprocessing.ipynb](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Preprocessing.ipynb) first and go from there or look at all the code at once in [Total_Code.ipynb](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Total_Code.ipynb).
+### 1. Access the [Preprocessing.ipynb](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Importation_and_Cleaning_of_Data.ipynb) first and go from there.
 ### 2. Follow along with the coding narrative and comments.
-### 3. Preview the uploaded presentation, [Steam Games Analysis](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Bank%20Targeted%20Marketing.pdf).
+### 3. Preview the uploaded presentation, [Steam Games Analysis](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Steam%20Games%20Analysis.pdf).
 
 ## From Analysis
 
-### Job-Education Pair Graph
-![](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Education_Job__prop_Graph.png)
-![](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Education_Job_Graph.png)
+### Top 10 Genre Combinations and Number of Genres
+![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/Top10Genres.png)
+![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/NumOfGenresBar.png)
 
-### Job-Education Pair Age Distribution
-![](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/AgeDistribution.png)
-
-### Month Contacted and Times Contacted Before Marketing Campaign
-![](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Month_Previous_Graph.png)
+### Top 10 TopTag and Number of Tags
+![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/Top10Tags.png)
+![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/NumOfTagsBar.png)
 
 ## Model in Action
 Below, we can see the prediction ability in action from both the original model and the model with a custom threshold
 
 ### Original Model
-![Actual Answer Vs Model Prediction Price](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Model_in_Action.png)
+![Actual Answer Vs Model Prediction Price](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/FinalModelinAction.png)
 
 ### Model with Custom Threshold
-![](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Model_in_Action_with_threshold.png)
+![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/FinalModelwThresholdinAction.png)
 
 ### Model with Custom Threshold Confusion Matrix
-![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/RF_ConfusionMatrix_with_Threshold.png)
+![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/FinalModelConMatThres.png)
 
-Here we see our model with and without a threshold implemented. This threshold makes our model more sensitive, but less specific and precise than the default model; that is, our threshold model allows for more false positives in order to reduce false negatives which is our goal in this scenario. With the threshold model, we are able to predict ~72% of clients as subscribers who were indeed subscribers, and it also predicted 73% of clients as non-subscribers who were indeed not subscribers. This is compared to our original model that was able to predict 56% of clients as subscribers who were indeed subscribers and 92% of clients as non-subscribers who were indeed not subscribers.
+Here we see our model with and without a threshold implemented. This threshold makes our model more sensitive, but less specific and precise than the default model; that is, our threshold model allows for more false positives in order to reduce false negatives. With the threshold model, we are able to predict ~72% of clients as subscribers who were indeed subscribers, and it also predicted 73% of clients as non-subscribers who were indeed not subscribers. This is compared to our original model that was able to predict 56% of clients as subscribers who were indeed subscribers and 92% of clients as non-subscribers who were indeed not subscribers.
 
 ### ROC-AUC Graph of 5 Models with Custom Threshold
-![](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/ROC-AUC_with_threshold_Graph.png)
+![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/FinalModelROC-AUC.png)
 
 From this model, we can conclude that our top features are the following: 
 
 ### Top 10 Features
-![Top 10 Features](https://github.com/JohnPaulHernandezAlcala/Bank-Targeted-Marketing/blob/master/Top10Features_clear.png)
+![Top 10 Features](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/Top10FeaturesfromFinalModel.png)
 
 ## Conclusion
-From the analysis of this data and implemenation of multiple models and thresholds, it was determined that the best model from the 5 used models in this project is the random forest model with a threshold of 0.2701844 because of its highest recall score of 0.72 for 'yes', AUC of 0.79, specificity of ~72%, and sensitivity of ~72%. 
+From the analysis of this data and implemenation of multiple models and thresholds, it was determined that the best model from the 5 used models in this project is the random forest model with a threshold of 0.40 because of its highest recall or sensitive score of 0.71 for 'yes', specificity or precision of 65%, and AUC of 0.78
 
-## Recommendations from Model and Analysis:
-Subscriber outcome is high for:
-* Top Ten Features of Model
-* Students who have an education level at 'basic.4y', 'basic.9y', 'high.school'
-* Certain age ranges for students, retired, and unemployed
-* Client contact efforts and timing: month contact, and previous calls
 
+* Number of Tags 
+* Number of Languages
+* Does Not Have YouTube Views
+* Number of Categories',
+* Price 
+* Has YouTube Views
+* Had peak concurrent players yesterday
+* Does Have an Old userscore
+* Does Not Have an Old userscore
+* Top Voted Tag as Indie'
+
+With this model and our total analysis, we can produce three business recommendations:
+
+* Have more than 6 tags for your game
+* Make sure you get game content published on YouTube
+* Make a game that has the only genre as action or action, adventure combination
 
 ## Support
 If you need any help, please email me at johnhdz1023@gmail.com.
 
 ## Acknowledgments
-[Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
+[Steam](https://store.steampowered.com/)
+[SteamSpy](https://steamspy.com/)
 
-I want to thank my girlfriend, Haley, [Flatiron School](https://flatironschool.com/), my cohort, and my technical advisor, [Eli](http://linkedin.com/in/jacob-eli-thomas-4377037), for input on this project. I wish he could have seen the end product.
+I want to thank my girlfriend, Haley, [Flatiron School](https://flatironschool.com/), my cohort, and my technical advisor, Lindsey Berlin, and [Eli](http://linkedin.com/in/jacob-eli-thomas-4377037).
 
 ## Contribution
 See [CONTRIBUTING.md](https://github.com/JohnPaulHernandezAlcala/House_Sale_Prices/blob/master/CONTRIBUTING.md)
@@ -84,9 +93,6 @@ See [LICENSE.md](https://github.com/JohnPaulHernandezAlcala/House_Sale_Prices/bl
 # Image Sources:
 https://www.slashgear.com/wp-content/uploads/2019/12/steamcure.jpg
 
-https://img2.pngio.com/business-growth-chart-png-transparent-growth-charts-transparent-business-growth-png-820_387.png
 
-https://acrobatant.com/wp-content/uploads/2018/09/Target_Marketing.jpg
-
-#### -- Project Status: [Incomplete]
+#### -- Project Status: [Completed]
 # steam-games
