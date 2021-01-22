@@ -6,9 +6,7 @@
 *Author: John Paul Hernandez Alcala*
 
 ## Description 
-This project uses a data derived method for predicting which game would have above average ownership by Steam Users. A presentation that investigates which game features affect onwership count outcome and machine learning methods result in a model with moderate sensitivity (~71%) and moderate specificity (~65%).
-
-
+This project uses a data derived method for predicting which game would have above average ownership by Steam Users. A presentation that investigates which game features affect onwership count outcome and machine learning methods result in a model with either sensitivity(recall) 65% and specificity(precision) 76% or sensitivity 75% and specificity 72%.
 
 ## Where to Start First:
 
