@@ -38,7 +38,7 @@ Below, we can see the prediction ability in action from both the original model 
 ### Model with Custom Threshold Confusion Matrix
 ![Confusion Matrix](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/FinalModelConMatThres.png)
 
-Here we see our model with and without a threshold implemented. This threshold makes our model more sensitive, but less specific and precise than the default model; that is, our threshold model allows for more false positives in order to reduce false negatives. With the threshold model, we are able to predict ~72% of clients as subscribers who were indeed subscribers, and it also predicted 73% of clients as non-subscribers who were indeed not subscribers. This is compared to our original model that was able to predict 56% of clients as subscribers who were indeed subscribers and 92% of clients as non-subscribers who were indeed not subscribers.
+Here we see our model with and without a threshold implemented. This threshold makes our model more sensitive, but less specific or precise than the default model; that is, our threshold model allows for more false positives in order to reduce false negatives. With the threshold model, we are able to predict ~65% of games as having above average owners count or ownership, and it also predicted 76% of games as not above average when they were indeed not above. This is compared to our original model that was able to predict 75% of games as above average when they were indeed above and 72% of clients as games not above average when they were actually not.
 
 ### ROC-AUC Graph of 5 Models with Custom Threshold
 ![](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Images/FinalModelROC-AUC.png)
@@ -83,12 +83,6 @@ See [CONTRIBUTING.md](https://github.com/JohnPaulHernandezAlcala/House_Sale_Pric
 
 # License
 See [LICENSE.md](https://github.com/JohnPaulHernandezAlcala/House_Sale_Prices/blob/master/LICENSE.md)
-
-# Relevant Papers:
-
-[S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014](http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf)
-
-[S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology. In P. Novais et al. (Eds.), Proceedings of the European Simulation and Modelling Conference - ESM'2011, pp. 117-121, Guimaraes, Portugal, October, 2011. EUROSIS. [bank.zip]](https://www.semanticscholar.org/paper/Using-data-mining-for-bank-direct-marketing%3A-an-of-Moro-Laureano/a175aeb08734fd669beaffd3d185a424a6f03b84)
 
 # Image Sources:
 https://www.slashgear.com/wp-content/uploads/2019/12/steamcure.jpg
