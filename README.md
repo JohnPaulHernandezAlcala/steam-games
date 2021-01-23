@@ -10,7 +10,7 @@ This project uses a data derived method for predicting which game would have abo
 
 ## Where to Start First:
 
-### 1. Access the [Preprocessing.ipynb](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Importation_and_Cleaning_of_Data.ipynb) first and go from there.
+### 1. Access the [Importation_and_Cleaning_of_Data.ipynb](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Importation_and_Cleaning_of_Data.ipynb) first and go from there.
 ### 2. Follow along with the coding narrative and comments.
 ### 3. Preview the uploaded presentation, [Steam Games Analysis](https://github.com/JohnPaulHernandezAlcala/steam-games/blob/main/Steam%20Games%20Analysis.pdf).
 
