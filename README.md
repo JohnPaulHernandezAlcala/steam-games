@@ -1,4 +1,4 @@
-# Steam Game Anaylsis
+# Steam Game Analysis
 
 <img src="https://www.slashgear.com/wp-content/uploads/2019/12/steamcure.jpg">
 
