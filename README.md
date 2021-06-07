@@ -65,7 +65,7 @@ With this model and our total analysis, we can produce three business recommenda
 
 * Have more than 6 tags for your game
 * Make sure you get game content published on YouTube
-* Make a game that has the only genre as action or action, adventure combination
+* Make a game that has the only genre as action or action-adventure combination
 
 ## Support
 If you need any help, please email me at johnhdz1023@gmail.com.
