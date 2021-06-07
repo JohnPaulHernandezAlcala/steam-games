@@ -53,7 +53,7 @@ From the analysis of this data and implemenation of multiple models and threshol
 * Number of Tags 
 * Number of Languages
 * Does Not Have YouTube Views
-* Number of Categories',
+* Number of Categories,
 * Price 
 * Has YouTube Views
 * Had peak concurrent players yesterday
