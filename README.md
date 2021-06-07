@@ -86,5 +86,5 @@ See [LICENSE.md](https://github.com/JohnPaulHernandezAlcala/House_Sale_Prices/bl
 https://www.slashgear.com/wp-content/uploads/2019/12/steamcure.jpg
 
 
-#### -- Project Status: [Completed]
+#### -- Project Status: [Under Revision]
 # steam-games
