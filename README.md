@@ -59,7 +59,7 @@ From the analysis of this data and implemenation of multiple models and threshol
 * Had peak concurrent players yesterday
 * Does Have an Old userscore
 * Does Not Have an Old userscore
-* Top Voted Tag as Indie'
+* Top Voted Tag as Indie
 
 With this model and our total analysis, we can produce three business recommendations:
 
